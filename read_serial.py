@@ -18,9 +18,9 @@ with open('DataLog.csv','r',newline='') as file:
         row_idx += 1
 
 
-mass_input = int(input("Choose a mass to log [0,25,50,75,100]: \n"))
+mass_input = int(input("Choose a volume to log [0,25,50,75,100]: \n"))
 while mass_input not in [0,25,50,75,100]:
-    mass_input = int(input("Choose a mass to log [0,25,50,75,100]: \n"))
+    mass_input = int(input("Choose a volume to log [0,25,50,75,100]: \n"))
 
 
 time.sleep(2) #wait for connection
